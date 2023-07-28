@@ -1,17 +1,22 @@
-TITLE: tile p
+TITLE: Read me
 
+LICENSE: mit Copyright (c) 2023 pearl
 
-DESCRIPTION: desc p
+INSTRUCTIONS: install node inquirer
 
-INSTRUCTIONS: install p
+AUTHOR: pearl
 
-USAGE: read p
+USAGE: based on user input
 
-GITHUB REPOSITORY: github p
+CONTRIBUTIONS: creater of inquirer
 
-TESTS: samp p
+TESTS: if writing does not happen, get error
 
-CONTRIBUTIONS: cntrib p
+If you have any questions, please contact pearl at jones
 
-https://github p
+DESCRIPTION: a user input driven
+
+GITHUB REPOSITORY: github
+
+https://github
 
