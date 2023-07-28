@@ -1,9 +1,14 @@
-// TODO: Include packages needed for this application
+// this index.js if for the ReadMe Generator project
+// this includes installing NodeJS Inquirer
 
-
+// require the nodejs files
 const inquirer = require('inquirer');
 const fs = require('fs');
+
+// the filename to use is specified here
 var filename = 'README.md';
+
+// Write this information from the user to the README.md file
 
 function writeToFile(filename, data) {
     var lineitem = 'TITLE: ' + data.titleEl + '\n\n'
@@ -56,14 +61,14 @@ function writeToFile(filename, data) {
         err ? console.log(err) : console.log('Success!')
     );
 
-    // github link https://github.com/agentpj/passwordgenerator
+    // github link https://github.com/agentpj/ReadMeGenerator
     lineitem = 'https://' + data.repoEl + '\n\n'
     fs.appendFile(filename, lineitem, (err) =>
         err ? console.log(err) : console.log('Success!')
     );
 };
 
-
+// Ask user information to put in the README file
 inquirer
     .prompt([
         {

@@ -19,4 +19,3 @@ GITHUB REPOSITORY: github.com/agentpj/ReadMeGenerator
 USAGE: The file gives the user an idea of what the project does
 
 https://github.com/agentpj/ReadMeGenerator
-
