@@ -1,8 +1,8 @@
-# TITLE: title
+# TITLE: README.md File Generator
 
-  ## AUTHOR: name
+  ## AUTHOR: Pearl Jones
 
-  ### LICENSE: MIT Copyright (c) 2023 name
+  ### LICENSE: MIT Copyright (c) 2023 Pearl Jones
 
 
 
@@ -18,26 +18,26 @@
 .  GITHUB REPOSITORY
 .  GITHUB LINK
 
-### DESCRIPTION: description
+### DESCRIPTION: This project allows the user to create the README file based on their input
 
 
-#### INSTRUCTIONS: install
+#### INSTRUCTIONS: Install the Inquirer package from Nodejs.com
 
 
-#### USAGE: for
+#### USAGE: The ReadMe gives an overview information about the project
 
 
-#### CONTRIBUTIONS: guide
+#### CONTRIBUTIONS: The developer for the Inquirer package
 
 
-##### TESTS: test
+##### TESTS: The program returns an error if the README.md file cannot be written
 
 
-##### If you have any questions, please contact name at jahoo
+##### If you have any questions, please contact Pearl Jones at jones@yahoo.com
 
 
-# GITHUB REPOSITORY: repo
+# GITHUB REPOSITORY: github.com/agentj/ReadMeGenerator
 
 
-# https:// repo
+# https://github.com/agentj/ReadMeGenerator
 

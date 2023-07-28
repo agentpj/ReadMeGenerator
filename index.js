@@ -66,10 +66,8 @@ inquirer
     ])
     .then((data) =>
     
-    //writeToFile(filename, data));
+    //the actual call to write the user input to the README.md file
     {
-        //const filename = `${data.name.toLowerCase().split(' ').join('')}.json`;
-    
         fs.writeFile(filename, generateMarkdown(data), (err) =>
           err ? console.log(err) : console.log('Success!')
         );
